@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url(Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(Inter-Regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+img{
+    margin-bottom: 72px;
+}
+
+#hero {
+    width: 592px;
+    margin: 0px auto 72px;
+}
+
+h1 {
+    font-family: Inter-Regular;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+span#color, a{
+    color: #FF9900;
+}
+
+p, #footer{
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 72px;
+}
+
+body, p, a{
+    font-family: sans-serif;
+}
+
+#footer{
+    margin-bottom: 32px;
+}
+
+#footer a + a{    
+    margin-left: 28px;
+}
+
+#footer .line{
+    width: 568px;
+    height: 1px;
+    background-color: #FCEEF2;
+    margin: 0 auto 8px;
+}
+
+#bolinhas{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
